@@ -8,5 +8,4 @@ const runTimeOut = async () => {
     promise.then(() => {console.log('Time out!')})
 };
 
-
 runTimeOut();
