@@ -1,6 +1,5 @@
 const RickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
- RickAndMortyCharacters.pop()
+RickAndMortyCharacters.splice(1, 1);
 
- console.log( RickAndMortyCharacters)
-console.log(RickAndMortyCharacters[0],RickAndMortyCharacters[RickAndMortyCharacters.length - 1])
+console.log(RickAndMortyCharacters);

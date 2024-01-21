@@ -38,8 +38,6 @@ let result = 0;
 for (let value1 of users) {
   for (let value2 in value1.favoritesSounds) {
     result += value1.favoritesSounds[value2].volume;
-        //  console.log(value1.favoritesSounds[value2].volume);
-   
   }
 }
 
